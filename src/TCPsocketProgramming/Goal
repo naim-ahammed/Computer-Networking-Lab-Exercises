@@ -1,0 +1,13 @@
+8 Lab Exercise (Submit as a report):
+
+        Mathematical operations are very useful to be implemented using TCP socket programming. Create two
+        processes, a server and a client using JAVA codes. The client will send two separate integer values and a
+        mathematical operator to the server. The server receives these integers and a mathematical operator, then
+        performs a mathematical operation based on the user input. The server then sends this answer to the client,
+        who then displays it. The client sends requests as many times as he wishes. However, The server can serve at
+        most 5 clients in its lifetime. The individual client ends its connection by saying “ENDS”. For example:
+        • If the client sends 10, 20, and Sum, the server sends 30 to the client.
+        • If the client sends 20, 5, and Subtract, the server sends 15 to the client.
+        • If the client sends 20, 5, and Multiplication, the server sends 100 to the client.
+        • If the client sends 20, 5, and Division, the server sends 4 to the client.
+        • If the client sends 16, 3, and Modules, the server sends 1 to the client.
