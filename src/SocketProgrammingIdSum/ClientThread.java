@@ -5,7 +5,6 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-
 public class ClientThread {
     public static void main(String args[]) throws IOException {
         try {
